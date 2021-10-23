@@ -190,24 +190,26 @@ padding-right: 2em;
 
 .col-left-sub{
     width: 25%;
-    background-color: red;
-    height: 800px;
+    border: solid 1px lightgray;
+    height: 1100px;
     float: left;
+    
 }
 
 .col-center-sub{
     width: 25%;
     border: solid 1px lightgray;
-    height: 1500px;
+    height: 1100px;
     float: left;
     margin: 0px 8em;
 }
 
 .col-right-sub{
-    width: 25%;
-    background-color: yellow;
-    height: 800px;
+  width: 25%;
+    border: solid 1px lightgray;
+    height: 1100px;
     float: left;
+    
 }
 
 .box-title{
@@ -242,11 +244,11 @@ padding-right: 2em;
 .btn-sub{
     margin: 3em 0;
 }
-.btn{
+.btn-sub .btn{
     line-height: 1em;
     background-color: #007bff;
     color: white;
-    padding: 0.5em 2.8em;
+    padding: 0.5em 2.5em;
     text-decoration: none;
 }
 
