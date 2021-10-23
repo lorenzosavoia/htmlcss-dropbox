@@ -1,0 +1,271 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.underline{
+    border-bottom: solid 1px lightgray;
+    padding-bottom: 3em;
+}
+
+
+
+.nav-menu{
+    height: 90px;
+    width: 100%;
+    position: fixed;
+    background-color: white;
+    z-index: 100;
+}
+
+.logo{
+    vertical-align: sub;
+}
+
+.col-left{
+    float: left;
+    height: 90px;
+    
+    line-height: 90px;
+    vertical-align: middle;
+}
+
+
+
+.col-left ul{
+    display: inline-block;
+}
+
+.col-left li{
+    
+    display: inline-block;
+    padding: 0 1em;
+}
+
+.col-left a{
+    text-decoration: none;
+    color: black;
+}
+
+.col-right{
+    float: right;
+    
+    height: 90px;
+    
+    line-height: 90px;
+    vertical-align: middle;
+}
+
+.col-right ul{
+    display: inline-block;
+}
+
+.col-right li{
+    
+    display: inline-block;
+    padding: 0 1em;
+}
+
+.col-right a{
+    text-decoration: none;
+    color: black;
+}
+
+.col-right .btn-nav{
+    line-height: 1em;
+    background-color: #007bff;
+    color: white;
+    padding: 0.5em 1em;
+}
+
+.jumbotron{
+    width: 100%;
+    margin: auto;
+    background-color:#b4d0e7;
+    
+    padding-top: 90px;
+    position: relative;
+    
+}
+
+.titolo-1{
+    font-size: 2.1em;
+    padding-top: 1em;
+    margin: 0 3em;
+}
+
+
+.left-text{
+    text-align: left;
+    width: 30%;
+    padding: 1em 0;
+    margin: 0 3em;
+}
+
+.btn-jumbotron{
+    line-height: 1em;
+    background-color: #007bff;
+    color: white;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    margin: 0 3em;
+}
+
+.left-text p {
+    padding: 3em 0;
+    margin: 0 3em;
+}
+
+.left-text span{
+    display: block;
+    padding: 1em 0;
+    margin: 0 3em;
+}
+
+.btn-arrow .fas{
+    color: black;
+    font-size: 3em;
+    padding: 1em 0;
+    margin: 0 1em;
+    
+}
+
+.jumbotron .jumbotron-img{
+   position: absolute;
+    top: 48%;
+    left: 34%;
+    
+    width: 59%;
+}
+
+.main-col{
+    width: 75%;
+    
+    height: 1000px;
+    margin: 0 auto;
+    padding-top: 15em ;
+}
+
+.main-title{
+    font-size: 2.5em;
+}
+.checkbox{
+    
+    padding-top: 3em;
+}
+
+.checkbox input{
+    width: 1.3em;
+    height: 1.3em;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+
+        
+}
+
+.checkbox label{
+padding-right: 2em;
+}
+
+.box-sub{
+    margin-top: 2em;
+}
+
+.col-left-sub{
+    width: 25%;
+    background-color: red;
+    height: 800px;
+    float: left;
+}
+
+.col-center-sub{
+    width: 25%;
+    border: solid 1px lightgray;
+    height: 1500px;
+    float: left;
+    margin: 0px 8em;
+}
+
+.col-right-sub{
+    width: 25%;
+    background-color: yellow;
+    height: 800px;
+    float: left;
+}
+
+.box-title{
+    
+    text-align: center;
+    line-height: 55px;
+    text-align: center;
+    border-bottom: solid 1px lightgray;
+}
+
+.main-content{
+    margin: 0 1em;
+    margin-top: 1.5em;
+}
+
+.main-content ul{
+    list-style: none;
+}
+.main-content li{
+    padding: 0.5em 0;
+    font-size: 87%;
+}
+.main-content .prize{
+     font-weight: bold;
+     font-size: 105%;
+}
+.main-content .text-gray{
+    color:#7d8996;
+    padding-bottom: 3em;
+}
+
+.btn-sub{
+    margin: 3em 0;
+}
+.btn{
+    line-height: 1em;
+    background-color: #007bff;
+    color: white;
+    padding: 0.5em 2.8em;
+    text-decoration: none;
+}
+
+.btn-sub span{
+    margin: 3em 0;
+    display: inline-block;
+    
+}
+.btn-sub span a{
+    color:#1e73fe;
+    text-decoration: none;
+
+}
+
+.list-sub .fas{
+    color:#1e73fe;
+    padding-right: 7px;
+
+}
+.list-sub h3{
+    margin-bottom: 2em;
+}
