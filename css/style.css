@@ -21,6 +21,7 @@ html{
 
 
 
+
 .nav-menu{
     height: 90px;
     width: 100%;
@@ -152,7 +153,7 @@ html{
 .main-col{
     width: 75%;
     
-    height: 1000px;
+    
     margin: 0 auto;
     padding-top: 15em ;
 }
@@ -270,4 +271,100 @@ padding-right: 2em;
 }
 .list-sub h3{
     margin-bottom: 2em;
+}
+
+.main-col-footer{
+    width: 100%;
+    margin-top: 3em;
+    border: solid 1px lightgray;
+}
+.col-left-main-footer{
+    float: left;
+    width: 70%;
+    
+}
+.col-left-main-footer >p{
+    padding: 0.7em;
+    
+}
+.col-left-main-footer >h4{
+    padding: 0.7em;
+    
+}
+.col-left-main-footer h2{
+    padding: 0.5em;
+}
+.col-right-main-footer{
+    float: left;
+    width: 30%;
+}
+
+.col-right-main-footer .btn{
+    color:#1e73fe;
+    text-decoration: none;
+    line-height: 1em;
+    background-color: #007bff;
+    color: white;
+    padding: 0.8em 3.5em;
+    text-decoration: none;
+    margin-top: 2em;
+    display: inline-block;
+    
+}
+
+.photo-text{
+    margin-top: 7em ;
+}
+.photo{
+    float: left;
+    width: 50%;
+}
+.photo img{
+    max-width: 100%;
+    height: auto;
+}
+
+.testo-left-photo{
+    float: left;
+    width: 50%;
+    padding-left: 3em;
+    padding-top: 3em;
+}
+.testo-left-photo h2{
+    font-size: 2em;
+    padding-bottom: 1em;
+}
+.testo-left-photo h6 {
+    padding-bottom: 2em;
+    font-size: 1em;
+    line-height: 1.8em;
+}
+.btn-black{
+    text-decoration: none;
+    color:black;
+    padding: 0.5em 3em;
+    border: solid 2px black;
+}
+.img-text-box{
+    margin-top: 4em ;
+}
+.img-text-box img{
+    max-width: 100%;
+    height: auto;
+}
+.img-text-box h1{
+    font-size: 3em;
+}
+.box{
+    float: left;
+    width: 30%;
+    margin-top: 3em;
+}
+
+.box-center{
+    margin: 3em 5%;
+}
+
+.title-box-img{
+    padding-bottom: 1em;
 }
