@@ -25,6 +25,10 @@ html{
     padding-bottom: 4em;
 }
 
+.border-top{
+    border-top: solid 1px lightgray;
+}
+
 
 
 .nav-menu{
@@ -151,8 +155,7 @@ html{
    position: absolute;
     top: 48%;
     left: 34%;
-    
-    width: 59%;
+    max-width: 40%;
 }
 
 .main-col{
@@ -493,4 +496,81 @@ padding-right: 2em;
     margin-top: 9em;
     display: inline-block;
     font-weight: bold;  
+}
+
+.faq{
+    width: 70%;
+    margin: 10em auto;
+}
+
+.riga{
+    line-height: 5em;
+    border-bottom: solid 1px lightgray;
+    font-weight: bold;
+}
+
+.faq h2{
+    font-size: 2em;
+    padding-bottom: 1em;
+}
+
+.chevron-down{
+    float: right;
+}
+
+footer{
+    background-color: black;
+    width: 100%;
+    height: 500px;
+}
+.footer-list{
+    width: 80%;
+    margin: 0 auto;
+}
+.col-footer{
+    float: left;
+    width: calc(100% / 5);
+    color: white;
+    padding: 2em;
+    margin-top: 3em;
+     
+    
+    
+}
+.col-footer h3{
+    margin-bottom: 1em;
+}
+.col-footer ul{
+    list-style: none;
+
+}
+
+.col-footer a{
+    text-decoration: none;
+    color: white;
+    line-height: 1.9em;
+    font-size: 90%;
+}
+#frist-col::after{     
+    content: '';     
+    width: 55%;     
+    height: 1px;     
+    background-color: gray;     
+    margin-top: 6em;     
+    display: block; 
+}
+
+.text-ita{
+    color: lightgray;
+    width: 76%;
+    margin: 0 auto;
+    
+    
+}
+.fa-sort-up{
+    padding-left: 0.5em;
+    padding-top: 0.2em;
+    vertical-align: middle;
+
+    
 }
