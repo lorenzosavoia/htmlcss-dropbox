@@ -50,7 +50,7 @@ html{
     z-index: 100;
 }
 .nav-menu div ul li a:hover{
-    border-bottom: 2px solid blue;
+    border-bottom: 2px solid #007bff;
 }
 
 .logo{
@@ -111,8 +111,9 @@ html{
 .col-right .btn-nav{
     line-height: 1em;
     background-color: #007bff;
+    border: 0px;
     color: white;
-    padding: 0.5em 1em;
+    padding: 0.8em 1.5em;
 }
 
 .jumbotron{
